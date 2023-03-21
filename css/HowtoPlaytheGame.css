@@ -1,0 +1,9 @@
+th,td {
+    border: solid #3B3486 ;
+    text-align: center;
+}
+body {
+background-color: darkseagreen}
+.emb{position: sticky;
+    top:0;
+    margin-top:-10px;}

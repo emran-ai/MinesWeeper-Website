@@ -1,0 +1,64 @@
+.topnav {
+    overflow: hidden;
+    background-color: #051367;
+    padding: 25px;
+    position: sticky; /* that is for the navigation bar when scrolling down it showed remain on the bottom */
+    top: 0px; /*it keeps the nav on top*/
+    font-family: montserrat;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin: -10px 0 5px 0;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover { /* when you hover a link*/
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active { /*when you click on a link*/
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+    /*when the resolution is minimum 640*/
+    .topnav a {         /*what to do for example if you see a and when the page is small*/
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 12px 12px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+   .name {
+        width: 10%;
+        background-color: lightgray;
+       text-align: center;
+        padding: 2px 2px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+

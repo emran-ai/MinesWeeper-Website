@@ -1,0 +1,25 @@
+
+body{background-color: #F0DBDB}
+.button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            display: block; /*they go under each other */
+            width: 50%;  /* they have the same size */
+    cursor: pointer;
+            color: green;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+
+
+
+        }
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */
+.button4 {background-color: deeppink;} /* Gray */
+.button5 {background-color: #555555;} /* Black */
+.emb{position: sticky;
+top:0;
+    margin-top:-10px;}
